@@ -5,6 +5,8 @@ body {
     width: 960px;
 }
 
+a { color: white;}
+
   .nuestros-servicios {
     font-weight: bolder;
     padding-top: 100px;
