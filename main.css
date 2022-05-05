@@ -7,6 +7,12 @@ body {
 
 a { color: white;}
 
+.encabezado {
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
   .nuestros-servicios {
     font-weight: bolder;
     padding-top: 100px;
