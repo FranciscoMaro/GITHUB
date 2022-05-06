@@ -9,13 +9,14 @@ a { color: white;}
 
 .encabezado {
 
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
 }
 
   .nuestros-servicios {
+    height: 400px;
     font-weight: bolder;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 150px;
     font-size: 200%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -533,10 +534,10 @@ span {
       "caja-definicion-societaria caja-definicion-laboral caja-definicion-empresarial"
       "caja-empresarial          caja-laboral                  caja-societaria";
       background-image: url(https://www.latam-legal.com/wp-content/uploads/2021/04/law-scales-of-justice-2-fotolia-750x375.jpg);
-      row-gap: 30px;
-      column-gap: 30px;
+      row-gap: 100px;
+      column-gap: 100px;
       
-      height: 800px;
+      height: 1500px;
       
   
      
