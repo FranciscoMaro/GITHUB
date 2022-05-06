@@ -410,10 +410,10 @@ span {
     }
   
   .caja-societaria {
-      
+      display: flex;
       background-color:#6154ef;
-      justify-items: center;
-      align-items: center;
+      justify-items: start;
+      align-items:flex-end;
       border-radius: 10px;
       
       font-weight: bold;
