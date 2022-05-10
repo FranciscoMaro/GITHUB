@@ -195,23 +195,7 @@ span {
     color: #cfcee3;
 }
 
-.container {
-    background-image: url(martillo.jpg);
-    background-size: cover;
-    text-align: justify;
-    
 
-
-    
-    
-    
-
-    max-width:max-content;
-    color: rgb(174, 175, 183);
-    
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-}
 
 
 
@@ -235,6 +219,17 @@ span {
 
     @media screen and (min-width: 100px) and (max-width: 500px)  { 
         
+      .container {
+        background-color: white;
+        color: black;
+        text-align: justify;
+        max-width:max-content;
+        /* color: rgb(174, 175, 183); */
+        text-align: justify;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+
       h1 {
         text-align: center;
       }
@@ -506,12 +501,26 @@ span {
 }
 
 
-    /*  MEDIA QUERY PARA CAJA FINAL MAYOR A 500PX */
+    /*  MEDIA QUERY  MAYOR A 500PX */
+
+
+
 
   
 
     @media screen and (min-width: 501px)
    {
+
+
+    .container {
+      background-image: url(martillo.jpg);
+      background-size: cover;
+      text-align: justify;
+      max-width:max-content;
+      color: rgb(174, 175, 183);
+      text-align: justify;
+      font-family: 'Courier New', Courier, monospace;
+    }
     
     h1 {
       text-align: center;
