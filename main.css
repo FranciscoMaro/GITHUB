@@ -219,7 +219,7 @@ span {
 
     @media screen and (min-width: 100px) and (max-width: 500px)  { 
         
-      .container {
+      .container1 {
         background-color: white;
         color: black;
         text-align: justify;
@@ -512,7 +512,7 @@ span {
    {
 
 
-    .container {
+    .container1 {
       background-image: url(martillo.jpg);
       background-size: cover;
       text-align: justify;
