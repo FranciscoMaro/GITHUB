@@ -1,16 +1,3 @@
-body {
-  background-color: #1d0fe4;
-  margin: auto;
-  height: 100%;
-  width: 968px; }
-
-a {
-  color: white; }
-
-.encabezado {
-  padding-top: 200px;
-  padding-bottom: 100px; }
-
 .nuestros-servicios {
   height: 400px;
   font-weight: bolder;
@@ -44,13 +31,47 @@ a {
     right: 0px;
     top: 0px; } }
 
-.contacto {
-  display: flex;
-  height: 150px;
-  align-items: flex-end;
-  justify-content: center;
-  font-size: 200%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+a {
+  color: white; }
+
+.encabezado {
+  padding-top: 200px;
+  padding-bottom: 100px; }
+
+.background {
+  border-radius: 20px;
+  width: 100%;
+  height: 450px;
+  margin: auto;
+  background: linear-gradient(35deg, #0bc1c1, #1d0fe4);
+  font-family: 'Courier New', Courier, monospace;
+  color: #b6bfc7;
+  opacity: 10px; }
+
+.background-1 {
+  border-radius: 20px;
+  width: 100%;
+  height: 450px;
+  margin: 50px auto;
+  background: linear-gradient(35deg, #0bc1c1, #1d0fe4);
+  font-family: 'Courier New', Courier, monospace;
+  opacity: 10px; }
+
+span {
+  color: red; }
+
+#parrafo {
+  color: #cfcee3; }
+
+#no-point {
+  list-style-type: circle; }
+
+.div-grid {
+  height: 500px;
+  justify-content: start; }
+
+.encabezado p {
+  font-weight: bold; }
 
 /* TRABAJO SOBRE LAS PAGINAS SECUNDARIAS */
 .englobador {
@@ -139,38 +160,6 @@ a {
 @keyframes onion {
   100% {
     background-color: #d0478c; } }
-
-.background {
-  border-radius: 20px;
-  width: 100%;
-  height: 450px;
-  margin: auto;
-  background: linear-gradient(35deg, #0bc1c1, #1d0fe4);
-  font-family: 'Courier New', Courier, monospace;
-  color: #b6bfc7;
-  opacity: 10px; }
-
-.background-1 {
-  border-radius: 20px;
-  width: 100%;
-  height: 450px;
-  margin: 50px auto;
-  background: linear-gradient(35deg, #0bc1c1, #1d0fe4);
-  font-family: 'Courier New', Courier, monospace;
-  opacity: 10px; }
-
-span {
-  color: red; }
-
-#parrafo {
-  color: #cfcee3; }
-
-#no-point {
-  list-style-type: circle; }
-
-.div-grid {
-  height: 500px;
-  justify-content: start; }
 
 /* MEDIA QUERY HASTA 500PX */
 @media screen and (min-width: 100px) and (max-width: 500px) {
