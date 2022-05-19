@@ -1,13 +1,3 @@
-$color-casillas: #6154ef;
-$color-casillas-hover: #d0478c;
-$color-gradiente: linear-gradient(35deg, #0bc1c1, #1d0fe4);
-$spacing: center;
-$bold: bold;
-$bolder: bolder;
-
-
-
-
 /*  MEDIA QUERY  MAYOR A 500PX */
 
 
@@ -92,14 +82,11 @@ $bolder: bolder;
    align-items: $spacing;
    border-radius: 10px;
    font-weight: $bold;
-   
    opacity: 80%;}
 
    .caja-laboral:hover {
-       transform: scale(1.1);
-       animation-name: onion;
-       animation-duration: 0.5s;
-       animation-fill-mode: forwards;
+      @include hover;
+     
  }
 
    @keyframes onion  {
@@ -194,10 +181,7 @@ $bolder: bolder;
                }
 
                .caja-definicion-empresarial:hover {
-                   transform: scale(1.1);
-                   animation-name: onion;
-                   animation-duration: 0.5s;
-                   animation-fill-mode: forwards;
+                   @include hover;
              }
            
                @keyframes onion  {
@@ -219,25 +203,13 @@ $bolder: bolder;
 }
 
 .caja-contacto {
-   display: flex;
-   flex-direction: column;
-   align-self: $spacing;
-   background-color: $color-casillas;
-   height:400px;
-   border-radius: 15px ;
-   width: 20%;
-   align-items: $spacing;
-   justify-content: $spacing;
-   font-weight: $bolder;
-   
+
+   @include cajas;
    
 }
 
 .caja-contacto:hover {
-   transform: scale(1.1);
-   animation-name: onion;
-   animation-duration:0.5s;
-   animation-fill-mode: forwards;}
+   @include hover;}
 
 @keyframes onion {
 
@@ -249,22 +221,11 @@ background-color: $color-casillas-hover;
 
 
    .caja-mail {
-   display: flex;
-   align-self: $spacing;
-   background-color: rgb(85, 0, 255);
-   height:400px;
-   border-radius: 15px ;
-   width: 20%;
-   align-items: $spacing;
-   justify-content: $spacing;
-   font-weight: $bolder;
+      @include cajas;
 }
 
 .caja-mail:hover {
-   transform: scale(1.1);
-   animation-name: onion;
-   animation-duration:0.5s;
-   animation-fill-mode: forwards;
+   @include hover;
 }
 
 @keyframes onion  {
@@ -274,23 +235,12 @@ background-color: $color-casillas-hover;}
 
 
 .caja-telefono {
-   display: flex;
-   align-self: $spacing;
-   background-color: rgb(128, 0, 255);
-   height:400px;
-   border-radius: 15px ;
-   width: 20%;
-   align-items: $spacing;
-   justify-content: $spacing;
-   font-weight: $bolder;
+   @include cajas;
 
 }
 
 .caja-telefono:hover {
-   transform: scale(1.1);
-   animation-name: onion;
-   animation-duration:0.5s;
-   animation-fill-mode: forwards;
+@include hover;
 }
 
 @keyframes onion  {

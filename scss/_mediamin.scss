@@ -1,14 +1,22 @@
-$color-casillas: #6154ef;
-$color-casillas-hover: #d0478c;
-$color-gradiente: linear-gradient(35deg, #0bc1c1, #1d0fe4);
-$spacing: center;
-$bold: bold;
-$bolder: bolder;
-
 
 /* MEDIA QUERY HASTA 500PX */
 
-@media screen and (min-width: 100px) and (max-width: 500px)  { 
+@media screen and (min-width: 100px) and (max-width: 500px)  {
+  
+  
+  @mixin cuerpos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-items: $spacing;
+    align-items: $spacing;
+    border-radius: 10px;
+    background-color: $color-casillas;
+    opacity: 80%;
+    font-weight: $bold;
+    height: 200px;
+    
+  }
         
     .container1 {
       background-color: white;
@@ -149,13 +157,8 @@ $bolder: bolder;
     }
 
 .caja-empresarial {
-    
-    justify-items: $spacing;
-    align-items: $spacing;
-    border-radius: 10px;
-    background-color: $color-casillas;
-    opacity: 80%;
-    font-weight: $bold;}
+    @include cuerpos;
+  }
 
     .caja-empresarial:hover {
         transform: scale(1.1);
@@ -174,14 +177,7 @@ $bolder: bolder;
 
 .caja-laboral {
    
-    background-color: $color-casillas;
-    justify-items: $spacing;
-    
-    align-items: $spacing;
-    border-radius: 10px;
-    font-weight: $bold;
-    
-    opacity: 80%;}
+  @include cuerpos;}
 
     .caja-laboral:hover {
         transform: scale(1.1);
@@ -197,14 +193,7 @@ $bolder: bolder;
   }
 
 .caja-societaria {
-    display: flex;
-    background-color: $color-casillas;
-    justify-items: start;
-    align-items:flex-end;
-    border-radius: 10px;
-    
-    font-weight: $bold;
-    opacity: 80%;
+  @include cuerpos;
     }
 
     .caja-societaria:hover {
@@ -220,13 +209,7 @@ $bolder: bolder;
     }
   }
     .caja-definicion-societaria {
-        justify-items: $spacing;
-        align-items: $spacing;
-        border-radius: 10px;
-        background-color: $color-casillas;
-        padding-left: 65px;
-        font-weight: $bold;
-        opacity: 80%;
+      @include cuerpos;
         }
 
         .caja-definicion-societaria:hover {
@@ -242,14 +225,7 @@ $bolder: bolder;
         }
       }
         .caja-definicion-laboral {
-            display: flex;
-            background-color: $color-casillas;
-            justify-items: $spacing;
-            align-items: $spacing;
-            border-radius: 10px;
-            padding-left: 70px;
-            font-weight: $bold;
-            opacity: 80%;
+          @include cuerpos;
             }
 
             .caja-definicion-laboral:hover {
@@ -265,14 +241,7 @@ $bolder: bolder;
             }
           }
             .caja-definicion-empresarial {
-                display: flex;
-                background-color: $color-casillas;
-                justify-items: $spacing;
-                align-items: $spacing;
-                border-radius: 10px;
-                padding-left: 65px;
-                font-weight: $bold;
-                opacity: 80%;
+              @include cuerpos;
             
                 }
 

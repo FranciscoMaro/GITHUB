@@ -1,10 +1,3 @@
-$color-casillas: #6154ef;
-$color-casillas-hover: #d0478c;
-$color-gradiente: linear-gradient(35deg, #0bc1c1, #1d0fe4);
-$spacing: center;
-$bold: bold;
-$bolder: bolder;
-
 
 /* TRABAJO SOBRE LAS PAGINAS SECUNDARIAS */
 
@@ -21,58 +14,35 @@ $bolder: bolder;
   }
   
     .englobado1 {
-    background-color: $color-casillas;
+    @include englobado;
     grid-area: englobado1;
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-    justify-content: $spacing;
-    align-items: $spacing;
-    border-radius: 15px;
+
   
   }
   
    .englobado2 {
-    background-color: $color-casillas;
+    @include englobado;
     grid-area: englobado2;
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-    justify-content: $spacing;
-    align-items: $spacing;
-    border-radius: 15px;
+
   
   }
   
    .englobado3 {
-    background-color:$color-casillas;
+    @include englobado;
     grid-area: englobado3;
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-    justify-content: $spacing;
-    align-items: $spacing;
-    border-radius: 15px;
+
   
   }
   
   .englobado4 {
-    background-color: $color-casillas;
+    @include englobado;
     grid-area: englobado4;
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-    justify-content: $spacing;
-    align-items: $spacing;
-    border-radius: 15px;
+
   
   }
   
   .englobado1:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration:0.5s;
-    animation-fill-mode: forwards;
+  @include hover;
   }
   
   @keyframes onion  {
@@ -81,10 +51,7 @@ $bolder: bolder;
   }
   
   .englobado2:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration:0.5s;
-    animation-fill-mode: forwards;
+    @include hover;
   }
   
   @keyframes onion  {
@@ -93,10 +60,7 @@ $bolder: bolder;
   }
   
   .englobado3:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration:0.5s;
-    animation-fill-mode: forwards;
+    @include hover;
   }
   
   @keyframes onion  {
@@ -105,10 +69,7 @@ $bolder: bolder;
   }
   
   .englobado4:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration:0.5s;
-    animation-fill-mode: forwards;
+    @include hover;
   }
   
   @keyframes onion  {
