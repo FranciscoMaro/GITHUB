@@ -1,4 +1,6 @@
-
+// variables
+$color-ida: rgb(0, 229, 255);
+$color-vuelta: rgb(55, 0, 255);
 
  .nuestros-servicios {
         
@@ -15,14 +17,13 @@
     
 
         @keyframes onion2 {
-            0%   {background-color:rgb(0, 229, 255); left:0px; top:0px;}
-            25%  {background-color:rgb(55, 0, 255); left:200px; top:0px;}
-            50%  {background-color:rgb(0, 229, 255); right:0px; top:0px;}
-            75%  {background-color:rgb(55, 0, 255); right:200px; top:0px;}
-            100%  {background-color:rgb(0, 229, 255); right:0px; top:0px;}
+            0%   {background-color:$color-ida; left:0px; top:0px;}
+            25%  {background-color:$color-vuelta; left:200px; top:0px;}
+            50%  {background-color:$color-ida; right:0px; top:0px;}
+            75%  {background-color:$color-vuelta; right:200px; top:0px;}
+            100%  {background-color:$color-ida; right:0px; top:0px;}
             
           
           }
 
    
-          a { color: white;}

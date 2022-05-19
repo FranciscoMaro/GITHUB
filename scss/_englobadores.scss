@@ -1,3 +1,11 @@
+$color-casillas: #6154ef;
+$color-casillas-hover: #d0478c;
+$color-gradiente: linear-gradient(35deg, #0bc1c1, #1d0fe4);
+$spacing: center;
+$bold: bold;
+$bolder: bolder;
+
+
 /* TRABAJO SOBRE LAS PAGINAS SECUNDARIAS */
 
 
@@ -13,49 +21,49 @@
   }
   
     .englobado1 {
-    background-color: #6154ef;
+    background-color: $color-casillas;
     grid-area: englobado1;
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    justify-content: center;
-    align-items: center;
+    justify-content: $spacing;
+    align-items: $spacing;
     border-radius: 15px;
   
   }
   
    .englobado2 {
-    background-color: #6154ef;
+    background-color: $color-casillas;
     grid-area: englobado2;
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    justify-content: center;
-    align-items: center;
+    justify-content: $spacing;
+    align-items: $spacing;
     border-radius: 15px;
   
   }
   
    .englobado3 {
-    background-color: #6154ef;
+    background-color:$color-casillas;
     grid-area: englobado3;
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    justify-content: center;
-    align-items: center;
+    justify-content: $spacing;
+    align-items: $spacing;
     border-radius: 15px;
   
   }
   
   .englobado4 {
-    background-color: #6154ef;
+    background-color: $color-casillas;
     grid-area: englobado4;
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    justify-content: center;
-    align-items: center;
+    justify-content: $spacing;
+    align-items: $spacing;
     border-radius: 15px;
   
   }
@@ -69,7 +77,7 @@
   
   @keyframes onion  {
     100% {
-  background-color: #d0478c;}
+  background-color: $color-casillas-hover;}
   }
   
   .englobado2:hover {
@@ -81,7 +89,7 @@
   
   @keyframes onion  {
     100% {
-  background-color: #d0478c;}
+  background-color: $color-casillas-hover;}
   }
   
   .englobado3:hover {
@@ -93,7 +101,7 @@
   
   @keyframes onion  {
     100% {
-  background-color: #d0478c;}
+  background-color: $color-casillas-hover;}
   }
   
   .englobado4:hover {
@@ -105,5 +113,5 @@
   
   @keyframes onion  {
     100% {
-  background-color: #d0478c;}
+  background-color: $color-casillas-hover;}
   }

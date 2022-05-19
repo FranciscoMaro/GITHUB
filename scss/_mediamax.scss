@@ -1,3 +1,13 @@
+$color-casillas: #6154ef;
+$color-casillas-hover: #d0478c;
+$color-gradiente: linear-gradient(35deg, #0bc1c1, #1d0fe4);
+$spacing: center;
+$bold: bold;
+$bolder: bolder;
+
+
+
+
 /*  MEDIA QUERY  MAYOR A 500PX */
 
 
@@ -20,15 +30,15 @@
  }
  
  h1 {
-   text-align: center;
+   text-align: $spacing;
  }
 
  p {
-   text-align: center;
+   text-align: $spacing;
  }
 
  h2 {
-   text-align: center;
+   text-align: $spacing;
  }
 
 
@@ -52,12 +62,12 @@
 .caja-empresarial {
    display: grid;
    grid-area: caja-empresarial;
-   justify-items: center;
-   align-items: center;
+   justify-items: $spacing;
+   align-items: $spacing;
    border-radius: 10px;
-   background-color: #6154ef;
+   background-color: $color-casillas;
    opacity: 80%;
-   font-weight: bold;}
+   font-weight: $bold;}
 
    .caja-empresarial:hover {
        transform: scale(1.1);
@@ -68,7 +78,7 @@
 
    @keyframes onion  {
        100% {
-    background-color: #d0478c;
+    background-color: $color-casillas-hover;
    }
  }
    
@@ -77,12 +87,11 @@
 .caja-laboral {
    display: grid;
    grid-area: caja-laboral;
-   background-color: #6154ef;
-   justify-items: center;
-   justify-items: center;
-   align-items: center;
+   background-color: $color-casillas;
+   justify-items: $spacing;
+   align-items: $spacing;
    border-radius: 10px;
-   font-weight: bold;
+   font-weight: $bold;
    
    opacity: 80%;}
 
@@ -95,19 +104,19 @@
 
    @keyframes onion  {
        100% {
-    background-color: #d0478c;
+    background-color: $color-casillas-hover;
    }
  }
 
 .caja-societaria {
    display: grid;
    grid-area: caja-societaria;
-   background-color:#6154ef;
-   justify-items: center;
-   align-items:center;
+   background-color:$color-casillas;
+   justify-items: $spacing;
+   align-items:$spacing;
    border-radius: 10px;
    
-   font-weight: bold;
+   font-weight: $bold;
    opacity: 80%;
    }
 
@@ -120,17 +129,18 @@
 
    @keyframes onion  {
        100% {
-    background-color: #d0478c;
+    background-color: $color-casillas-hover;
    }
  }
    .caja-definicion-societaria {
        display: grid;
-       justify-items: center;
-       align-items: center;
+       grid-area: caja-definicion-societaria;
+       justify-items: $spacing;
+       align-items: $spacing;
        border-radius: 10px;
-       background-color:#6154ef;
+       background-color: $color-casillas;
        
-       font-weight: bold;
+       font-weight: $bold;
        opacity: 80%;
        }
 
@@ -143,17 +153,18 @@
    
        @keyframes onion  {
            100% {
-        background-color: #d0478c;
+        background-color:$color-casillas-hover;
        }
      }
        .caja-definicion-laboral {
            display: grid;
-           background-color:#6154ef;
-           justify-items: center;
-           align-items: center;
+           grid-area: caja-definicion-laboral;
+           background-color: $color-casillas;
+           justify-items: $spacing;
+           align-items: $spacing;
            border-radius: 10px;
            
-           font-weight: bold;
+           font-weight: $bold;
            opacity: 80%;
            }
 
@@ -166,17 +177,18 @@
        
            @keyframes onion  {
                100% {
-            background-color: #d0478c;
+            background-color: $color-casillas-hover;
            }
          }
            .caja-definicion-empresarial {
                display: grid;
-               background-color:#6154ef        ;
-               justify-items: center;
-               align-items: center;
+               grid-area: caja-definicion-empresarial;
+               background-color:$color-casillas;
+               justify-items: $spacing;
+               align-items: $spacing;
                border-radius: 10px;
                
-               font-weight: bold;
+               font-weight: $bold;
                opacity: 80%;
                ;
                }
@@ -190,7 +202,7 @@
            
                @keyframes onion  {
                    100% {
-                background-color: #d0478c;
+                background-color:$color-casillas-hover;
                }
              }
  
@@ -201,7 +213,7 @@
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   align-content: center;
+   align-content: $spacing;
    height:800px;
    background: linear-gradient(35deg, #0bc1c1, #1d0fe4);
 }
@@ -209,14 +221,14 @@
 .caja-contacto {
    display: flex;
    flex-direction: column;
-   align-self: center;
-   background-color: blue;
+   align-self: $spacing;
+   background-color: $color-casillas;
    height:400px;
    border-radius: 15px ;
    width: 20%;
-   align-items: center;
-   justify-content: center;
-   font-weight: bolder;
+   align-items: $spacing;
+   justify-content: $spacing;
+   font-weight: $bolder;
    
    
 }
@@ -231,21 +243,21 @@
 
 
    100% {
-background-color: #d0478c;
+background-color: $color-casillas-hover;
 }
 }
 
 
    .caja-mail {
    display: flex;
-   align-self: center;
+   align-self: $spacing;
    background-color: rgb(85, 0, 255);
    height:400px;
    border-radius: 15px ;
    width: 20%;
-   align-items: center;
-   justify-content: center;
-   font-weight: bolder;
+   align-items: $spacing;
+   justify-content: $spacing;
+   font-weight: $bolder;
 }
 
 .caja-mail:hover {
@@ -257,20 +269,20 @@ background-color: #d0478c;
 
 @keyframes onion  {
    100% {
-background-color: #d0478c;}
+background-color: $color-casillas-hover;}
 }
 
 
 .caja-telefono {
    display: flex;
-   align-self: center;
+   align-self: $spacing;
    background-color: rgb(128, 0, 255);
    height:400px;
    border-radius: 15px ;
    width: 20%;
-   align-items: center;
-   justify-content: center;
-   font-weight: bolder;
+   align-items: $spacing;
+   justify-content: $spacing;
+   font-weight: $bolder;
 
 }
 
@@ -283,6 +295,15 @@ background-color: #d0478c;}
 
 @keyframes onion  {
    100% {
-background-color: #d0478c;}
+background-color:$color-casillas-hover;}
+}
+
+a { color: white;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   text-align: center;
 }
 }
+
+
