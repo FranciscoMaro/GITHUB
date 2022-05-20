@@ -39,11 +39,13 @@
    grid-template-areas: 
    "caja-definicion-societaria caja-definicion-laboral caja-definicion-empresarial"
    "caja-empresarial          caja-laboral                  caja-societaria";
-   background-color: #1d0fe4;
-   row-gap: 100px;
-   column-gap: 100px;
-   
+   row-gap: 200px;
+   column-gap: 200px;
    height: 1500px;
+   padding-top: 100px;
+   padding-left: 50px;
+   padding-right: 50px;
+   
    
 
   
@@ -56,8 +58,9 @@
    align-items: $spacing;
    border-radius: 10px;
    background-color: $color-casillas;
-   opacity: 80%;
-   font-weight: $bold;}
+   font-weight: $bold;
+   
+}
 
    .caja-empresarial:hover {
        transform: scale(1.1);
@@ -82,7 +85,7 @@
    align-items: $spacing;
    border-radius: 10px;
    font-weight: $bold;
-   opacity: 80%;}
+   }
 
    .caja-laboral:hover {
       @include hover;
@@ -104,7 +107,7 @@
    border-radius: 10px;
    
    font-weight: $bold;
-   opacity: 80%;
+   
    }
 
    .caja-societaria:hover {
@@ -128,7 +131,7 @@
        background-color: $color-casillas;
        
        font-weight: $bold;
-       opacity: 80%;
+       
        }
 
        .caja-definicion-societaria:hover {
@@ -152,7 +155,7 @@
            border-radius: 10px;
            
            font-weight: $bold;
-           opacity: 80%;
+           
            }
 
            .caja-definicion-laboral:hover {
@@ -176,7 +179,7 @@
                border-radius: 10px;
                
                font-weight: $bold;
-               opacity: 80%;
+              
                ;
                }
 

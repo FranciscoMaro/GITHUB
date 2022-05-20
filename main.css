@@ -392,10 +392,12 @@ span {
   .caja-principal {
     display: grid;
     grid-template-areas: "caja-definicion-societaria caja-definicion-laboral caja-definicion-empresarial" "caja-empresarial          caja-laboral                  caja-societaria";
-    background-image: url(https://www.latam-legal.com/wp-content/uploads/2021/04/law-scales-of-justice-2-fotolia-750x375.jpg);
-    row-gap: 100px;
-    column-gap: 100px;
-    height: 1500px; }
+    row-gap: 200px;
+    column-gap: 200px;
+    height: 1500px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px; }
   .caja-empresarial {
     display: grid;
     grid-area: caja-empresarial;
@@ -403,7 +405,6 @@ span {
     align-items: center;
     border-radius: 10px;
     background-color: #6154ef;
-    opacity: 80%;
     font-weight: bold; }
   .caja-empresarial:hover {
     transform: scale(1.1);
@@ -420,8 +421,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    font-weight: bold;
-    opacity: 80%; }
+    font-weight: bold; }
   .caja-laboral:hover {
     transform: scale(1.1);
     animation-name: onion;
@@ -437,8 +437,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    font-weight: bold;
-    opacity: 80%; }
+    font-weight: bold; }
   .caja-societaria:hover {
     transform: scale(1.1);
     animation-name: onion;
@@ -454,8 +453,7 @@ span {
     align-items: center;
     border-radius: 10px;
     background-color: #6154ef;
-    font-weight: bold;
-    opacity: 80%; }
+    font-weight: bold; }
   .caja-definicion-societaria:hover {
     transform: scale(1.1);
     animation-name: onion;
@@ -471,8 +469,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    font-weight: bold;
-    opacity: 80%; }
+    font-weight: bold; }
   .caja-definicion-laboral:hover {
     transform: scale(1.1);
     animation-name: onion;
@@ -488,8 +485,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    font-weight: bold;
-    opacity: 80%; }
+    font-weight: bold; }
   .caja-definicion-empresarial:hover {
     transform: scale(1.1);
     animation-name: onion;
