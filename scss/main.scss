@@ -2,7 +2,7 @@
 
 $color-casillas: #6154ef;
 $color-casillas-hover: #d0478c;
-$color-gradiente: linear-gradient(35deg, #0bc1c1, #1d0fe4);
+$color-gradiente: whitesmoke;
 $spacing: center;
 $bold: bold;
 $bolder: bolder;
@@ -10,8 +10,7 @@ $altura: 225px;
 $radio: 10px;
 $ancho: 50%;
 $row-gap: 8px;
-$color-ida: rgb(0, 229, 255);
-$color-vuelta: rgb(55, 0, 255);
+
 
 // MIXINS.-
 
@@ -20,6 +19,7 @@ $color-vuelta: rgb(55, 0, 255);
         animation-name: onion;
         animation-duration: 0.5s;
         animation-fill-mode: forwards;
+        
    
 }
 
@@ -66,14 +66,34 @@ $color-vuelta: rgb(55, 0, 255);
 $colores: (
       contacto: rgb(85, 0, 255),
       mail: blue ,
-      telefono: purple,);
+      telefono: purple,
+      fondo-1: whitesmoke,
+      fondo-2: blue,
 
-@each $cajasfinales, $color in $colores {
+      );
+
+      $fondazo: (
+      fondo-1: whitesmoke !important,
+      fondo-2: blue !important,
+
+      );
+
+        @each $cajasfinales, $color in $colores {
               .mapa-color-#{
                 $cajasfinales} {
                 background-color:$color}
               
       }
+
+
+
+      @each $colores-fondo, $color in $fondazo {
+        .fondo-#{
+          $colores-fondo} {
+          color:$color}
+        
+}
+
 
 
 
