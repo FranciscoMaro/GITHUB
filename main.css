@@ -53,7 +53,7 @@
   opacity: 10px; }
 
 span {
-  color: red; }
+  color: orange; }
 
 #parrafo {
   color: #cfcee3; }
@@ -170,11 +170,13 @@ span {
     text-align: justify;
     font-family: 'Courier New', Courier, monospace; }
   h1 {
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   p {
     text-align: center; }
   h2 {
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   .cajafinal {
     display: flex;
     flex-direction: column;
@@ -384,107 +386,84 @@ span {
     text-align: justify;
     font-family: 'Courier New', Courier, monospace; }
   h1 {
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   p {
     text-align: center; }
+  #span-color {
+    color: #6cc5e2; }
   h2 {
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   .caja-principal {
     display: grid;
-    grid-template-areas: "caja-definicion-societaria caja-definicion-laboral caja-definicion-empresarial" "caja-empresarial          caja-laboral                  caja-societaria";
+    grid-template-areas: "caja-accidente caja-definicion-accidente" " caja-despido caja-definicion-despido" "caja-jubilacion   caja-definicion-jubilacion";
+    grid-template-columns: 1fr 2fr;
     row-gap: 200px;
-    column-gap: 200px;
+    column-gap: 50px;
     height: 1500px;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px; }
-  .caja-empresarial {
+  .caja-accidente {
     display: grid;
-    grid-area: caja-empresarial;
+    grid-area: caja-accidente;
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #6154ef;
+    background-image: url(../casco.jpg);
+    background-size: cover;
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
     font-weight: bold; }
-  .caja-empresarial:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #d0478c; } }
-  .caja-laboral {
+  .caja-definicion-accidente {
     display: grid;
-    grid-area: caja-laboral;
-    background-color: #6154ef;
+    grid-area: caja-definicion-accidente;
     justify-items: center;
     align-items: center;
     border-radius: 10px;
     font-weight: bold; }
-  .caja-laboral:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #d0478c; } }
-  .caja-societaria {
+  .caja-despido {
     display: grid;
-    grid-area: caja-societaria;
-    background-color: #6154ef;
+    grid-area: caja-despido;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url(../despido.jpg);
+    background-size: cover;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    text-align: center; }
+  .caja-definicion-despido {
+    display: grid;
+    grid-area: caja-definicion-despido;
+    background-color: whitesmoke;
     justify-items: center;
     align-items: center;
     border-radius: 10px;
     font-weight: bold; }
-  .caja-societaria:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #d0478c; } }
-  .caja-definicion-societaria {
+  .caja-jubilacion {
     display: grid;
-    grid-area: caja-definicion-societaria;
+    grid-area: caja-jubilacion;
+    background-image: url(../old-folks.jpg);
+    background-size: contain;
+    opacity: 80%;
+    justify-items: center;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px; }
+  .caja-definicion-jubilacion {
+    display: grid;
+    grid-area: caja-definicion-jubilacion;
+    background-color: whitesmoke;
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #6154ef;
-    font-weight: bold; }
-  .caja-definicion-societaria:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #d0478c; } }
-  .caja-definicion-laboral {
-    display: grid;
-    grid-area: caja-definicion-laboral;
-    background-color: #6154ef;
-    justify-items: center;
-    align-items: center;
-    border-radius: 10px;
-    font-weight: bold; }
-  .caja-definicion-laboral:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #d0478c; } }
-  .caja-definicion-empresarial {
-    display: grid;
-    grid-area: caja-definicion-empresarial;
-    background-color: #6154ef;
-    justify-items: center;
-    align-items: center;
-    border-radius: 10px;
+    text-align: center;
     font-weight: bold; }
   .caja-definicion-empresarial:hover {
     transform: scale(1.1);
