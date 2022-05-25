@@ -10,16 +10,30 @@ $span-color: rgb(108, 197, 226);
 
 
  .container1 {
-   background-image: url(martillo.jpg);
-   background-size: cover;
+   display: flex;
+   flex-direction: row;
    text-align: justify;
-   max-width:max-content;
+   align-items: center;
+   justify-content: space-evenly;
    color: rgb(174, 175, 183);
-   text-align: justify;
+   padding: 100px;
    font-family: 'Courier New', Courier, monospace;
+   column-gap: 150px;
+
  }
+
+
+
+
+
+   
  
  h1 {
+   text-align: $spacing;
+   font-weight: bold;
+ }
+
+ h3 {
    text-align: $spacing;
    font-weight: bold;
  }

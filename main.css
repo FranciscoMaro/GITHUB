@@ -13,21 +13,11 @@
   padding-bottom: 150px;
   font-size: 200%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  position: relative;
-  animation-name: onion2;
-  animation-duration: 4s; }
+  position: relative; }
 
-@keyframes onion2 {
-  0% {
-    background-color: #00e5ff; }
-  25% {
-    background-color: #3700ff; }
-  50% {
-    background-color: #00e5ff; }
-  75% {
-    background-color: #3700ff; }
-  100% {
-    background-color: #00e5ff; } }
+.trabajo-ss {
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 .encabezado {
   padding-top: 200px;
@@ -65,6 +55,9 @@ span {
   height: 500px;
   justify-content: start; }
 
+#text-align {
+  text-align: center; }
+
 .encabezado p {
   font-weight: bold;
   font-size: 20px;
@@ -77,10 +70,11 @@ span {
   display: grid;
   grid-template-areas: "englobado1 englobado2" "englobado3 englobado4";
   row-gap: 35px;
-  column-gap: 35px; }
+  column-gap: 35px;
+  padding-top: 50px; }
 
 .englobado1 {
-  background-color: #6154ef;
+  background-color: blue;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -90,7 +84,7 @@ span {
   grid-area: englobado1; }
 
 .englobado2 {
-  background-color: #6154ef;
+  background-color: blue;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -100,7 +94,7 @@ span {
   grid-area: englobado2; }
 
 .englobado3 {
-  background-color: #6154ef;
+  background-color: blue;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -110,7 +104,7 @@ span {
   grid-area: englobado3; }
 
 .englobado4 {
-  background-color: #6154ef;
+  background-color: blue;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -265,7 +259,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #6154ef;
+    background-color: blue;
     opacity: 80%;
     font-weight: bold;
     height: 200px; }
@@ -284,7 +278,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #6154ef;
+    background-color: blue;
     opacity: 80%;
     font-weight: bold;
     height: 200px; }
@@ -303,7 +297,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #6154ef;
+    background-color: blue;
     opacity: 80%;
     font-weight: bold;
     height: 200px; }
@@ -322,7 +316,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #6154ef;
+    background-color: blue;
     opacity: 80%;
     font-weight: bold;
     height: 200px; }
@@ -341,7 +335,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #6154ef;
+    background-color: blue;
     opacity: 80%;
     font-weight: bold;
     height: 200px; }
@@ -360,7 +354,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #6154ef;
+    background-color: blue;
     opacity: 80%;
     font-weight: bold;
     height: 200px; }
@@ -378,14 +372,19 @@ span {
 /*  MEDIA QUERY  MAYOR A 500PX */
 @media screen and (min-width: 501px) {
   .container1 {
-    background-image: url(martillo.jpg);
-    background-size: cover;
+    display: flex;
+    flex-direction: row;
     text-align: justify;
-    max-width: max-content;
+    align-items: center;
+    justify-content: space-evenly;
     color: #aeafb7;
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace; }
+    padding: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    column-gap: 150px; }
   h1 {
+    text-align: center;
+    font-weight: bold; }
+  h3 {
     text-align: center;
     font-weight: bold; }
   p {
@@ -562,3 +561,9 @@ span {
 
 .fondo-fondo-2 {
   color: blue !important; }
+
+#linksj {
+  color: aliceblue; }
+
+#linkcontacto {
+  color: aliceblue; }

@@ -17,7 +17,7 @@
         width: $ancho*2;
         height: $altura*2;
         margin: 50px auto;
-        background: $color-gradiente;
+        background: blue
         font-family:'Courier New', Courier, monospace;
         
         opacity: 10px;
@@ -29,6 +29,7 @@
 span {
 
     color: orange;
+    
 }
 
 #parrafo {
@@ -44,3 +45,8 @@ span {
         height: 500px;
         justify-content: start
     } 
+
+    #text-align {
+        text-align: $spacing;
+
+    }

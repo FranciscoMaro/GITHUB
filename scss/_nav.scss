@@ -11,19 +11,16 @@ $color-vuelta: rgb(55, 0, 255);
         font-size: 200%;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         position: relative;
-        animation-name: onion2;
-        animation-duration: 4s;
+
         }
     
 
-        @keyframes onion2 {
-            0%   {background-color:$color-ida;}
-            25%  {background-color:$color-vuelta;}
-            50%  {background-color:$color-ida;}
-            75%  {background-color:$color-vuelta;}
-            100%  {background-color:$color-ida;}
-            
-          
-          }
+  .trabajo-ss {
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+      
 
    
