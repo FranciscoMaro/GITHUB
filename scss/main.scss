@@ -1,7 +1,7 @@
 // VIARIABLES.-
 
 $color-casillas: blue;
-$color-casillas-hover: #d0478c;
+$color-casillas-hover: rgb(7, 95, 129);
 $color-gradiente: whitesmoke;
 $spacing: center;
 $bold: bold;
@@ -48,6 +48,19 @@ $row-gap: 8px;
         border-radius: $row-gap*2-1;
       }
 
+@mixin  container {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(174, 175, 183);
+  padding: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  column-gap: 150px;
+  height: 780px;
+
+} 
 
 
 // IMPORTES.-

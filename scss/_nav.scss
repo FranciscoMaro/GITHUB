@@ -1,5 +1,6 @@
 $color-ida: rgb(0, 229, 255);
 $color-vuelta: rgb(55, 0, 255);
+$fuente: bolder;
 
 
  .nuestros-servicios {
@@ -22,5 +23,15 @@ $color-vuelta: rgb(55, 0, 255);
   }
 
       
-
+ a:hover {
+   color: orange;
+ }
    
+.fuente {
+  font-weight: $fuente;
+}
+
+.tamaño-fuente {
+  font-size: 20px;
+}
+

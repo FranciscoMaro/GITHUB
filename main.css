@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .contacto {
   display: flex;
   height: 150px;
@@ -19,6 +20,15 @@
   padding-top: 25px;
   padding-bottom: 25px; }
 
+a:hover {
+  color: orange; }
+
+.fuente {
+  font-weight: bolder; }
+
+.tamaño-fuente {
+  font-size: 20px; }
+
 .encabezado {
   padding-top: 200px;
   padding-bottom: 100px; }
@@ -38,9 +48,9 @@
   width: 100%;
   height: 450px;
   margin: 50px auto;
-  background: whitesmoke;
+  background: blue;
   font-family: 'Courier New', Courier, monospace;
-  opacity: 10px; }
+  opacity: 10%; }
 
 span {
   color: orange; }
@@ -121,7 +131,7 @@ span {
 
 @keyframes onion {
   100% {
-    background-color: #d0478c; } }
+    background-color: #075f81; } }
 
 .englobado2:hover {
   transform: scale(1.1);
@@ -131,7 +141,7 @@ span {
 
 @keyframes onion {
   100% {
-    background-color: #d0478c; } }
+    background-color: #075f81; } }
 
 .englobado3:hover {
   transform: scale(1.1);
@@ -141,7 +151,7 @@ span {
 
 @keyframes onion {
   100% {
-    background-color: #d0478c; } }
+    background-color: #075f81; } }
 
 .englobado4:hover {
   transform: scale(1.1);
@@ -151,7 +161,7 @@ span {
 
 @keyframes onion {
   100% {
-    background-color: #d0478c; } }
+    background-color: #075f81; } }
 
 /* MEDIA QUERY HASTA 500PX */
 @media screen and (min-width: 100px) and (max-width: 500px) {
@@ -200,7 +210,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-mail {
     display: flex;
     align-self: center;
@@ -223,7 +233,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-telefono {
     display: flex;
     align-self: center;
@@ -246,7 +256,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-principal {
     display: flex;
     flex-direction: column;
@@ -270,7 +280,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-laboral {
     display: flex;
     flex-direction: column;
@@ -289,7 +299,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-societaria {
     display: flex;
     flex-direction: column;
@@ -308,7 +318,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-definicion-societaria {
     display: flex;
     flex-direction: column;
@@ -327,7 +337,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-definicion-laboral {
     display: flex;
     flex-direction: column;
@@ -346,7 +356,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-definicion-empresarial {
     display: flex;
     flex-direction: column;
@@ -365,7 +375,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   a {
     color: white; } }
 
@@ -380,7 +390,37 @@ span {
     color: #aeafb7;
     padding: 100px;
     font-family: 'Courier New', Courier, monospace;
-    column-gap: 150px; }
+    column-gap: 150px;
+    height: 780px; }
+  .container1 h2 {
+    background-image: url(../images/despacho.jpg);
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 65%;
+    opacity: 80%;
+    color: #ff5100; }
+  .container1 p {
+    flex: 35%;
+    font-weight: bolder;
+    font-size: large;
+    text-align: justify; }
+  .container1 a {
+    color: blue; }
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #aeafb7;
+    padding: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    column-gap: 150px;
+    height: 780px; }
+  .container2
+.shaders {
+    box-shadow: 10px 5px 5px lightblue; }
   h1 {
     text-align: center;
     font-weight: bold; }
@@ -410,7 +450,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background: url(casco.jpg);
+    background: url(/images/casco.jpg);
     background-size: cover;
     font-size: 25px;
     text-align: center;
@@ -429,7 +469,7 @@ span {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background: url(despido.jpg);
+    background: url(/images/despido.jpg);
     background-size: cover;
     font-weight: bold;
     color: black;
@@ -446,7 +486,7 @@ span {
   .caja-jubilacion {
     display: grid;
     grid-area: caja-jubilacion;
-    background: url(old-folks.jpg);
+    background: url(/images/old-folks.jpg);
     background-size: contain;
     opacity: 80%;
     justify-items: center;
@@ -472,7 +512,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .cajafinal {
     display: flex;
     flex-direction: row;
@@ -497,7 +537,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-mail {
     display: flex;
     flex-direction: column;
@@ -515,7 +555,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   .caja-telefono {
     display: flex;
     flex-direction: column;
@@ -533,7 +573,7 @@ span {
     animation-fill-mode: forwards; }
   @keyframes onion {
     100% {
-      background-color: #d0478c; } }
+      background-color: #075f81; } }
   a {
     color: white;
     justify-content: center;
