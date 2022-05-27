@@ -393,13 +393,13 @@ span {
     column-gap: 150px;
     height: 780px; }
   .container1 h2 {
-    background: url(../images/despacho.jpg);
+    background: url(/images/despacho.jpg);
     height: 400px;
     border-radius: 10px;
     text-align: center;
     flex: 1;
     opacity: 80%;
-    color: #c13f0b; }
+    color: blue; }
   .container1 p {
     flex: 1;
     font-weight: bolder;
