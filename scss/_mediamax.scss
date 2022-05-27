@@ -15,7 +15,7 @@ $span-color: rgb(108, 197, 226);
  }
 
  .container1 h2 {  
- background: url(/images/despacho.jpg) ;
+ background: url("/images/despacho.jpg") ;
  height: 400px;
  border-radius: 10px;;
  text-align: center;
@@ -30,7 +30,6 @@ $span-color: rgb(108, 197, 226);
    font-weight: bolder;
    font-size: large;
   
-   
 
 
 }
@@ -51,7 +50,7 @@ $span-color: rgb(108, 197, 226);
 
 
 .container2 h3 {
-   background: url(../images/formularios-utiles.jpg);
+   background: url("../images/formularios-utiles.jpg)");
    background-size: contain;
    border-radius: 15px;
    padding-top: 199px;
