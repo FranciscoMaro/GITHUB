@@ -423,7 +423,7 @@ span {
     border-radius: 15px;
     padding-top: 199px;
     text-align: center;
-    color: #fbff00;
+    color: red;
     height: 400px;
     width: 300px;
     flex: 0 0 500px; }
