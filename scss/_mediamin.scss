@@ -154,115 +154,101 @@
     display: flex; 
     flex-direction: column;
     row-gap: 40px; 
-    height: 650px;
+    
+    
     
     }
 
-.caja-empresarial {
-    @include cuerpos;
-  }
+    .caja-accidente {
+      
+      justify-items: $spacing;
+      align-items: $spacing;
+      border-radius: 10px;
+      background-color: rgb(43, 183, 226);
+      order: 3;
+      font-size: 25px;
+      text-align: center;
+      flex-basis: 10px;
+      color: whitesmoke;
+      height: 500px;
+      font-weight: $bold;
+   }
+      
+      .caja-definicion-accidente {
 
-    .caja-empresarial:hover {
-        transform: scale(1.1);
-        animation-name: onion;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-  }
-
-    @keyframes onion  {
-        100% {
-     background-color: $color-casillas-hover;
-    }
-  }
-    
-
-
-.caja-laboral {
+          
+          justify-items: $spacing;
+          align-items: $spacing;
+          border-radius: 10px;
+          order: 4;
+          font-weight: $bold;
+          
+          }
    
-  @include cuerpos;}
+   .caja-despido {
 
-    .caja-laboral:hover {
-        transform: scale(1.1);
-        animation-name: onion;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-  }
-
-    @keyframes onion  {
-        100% {
-     background-color: $color-casillas-hover;
-    }
-  }
-
-.caja-societaria {
-  @include cuerpos;
-    }
-
-    .caja-societaria:hover {
-        transform: scale(1.1);
-        animation-name: onion;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-  }
-
-    @keyframes onion  {
-        100% {
-     background-color: $color-casillas-hover;
-    }
-  }
-    .caja-definicion-societaria {
-      @include cuerpos;
-        }
-
-        .caja-definicion-societaria:hover {
-            transform: scale(1.1);
-            animation-name: onion;
-            animation-duration:0.5s;
-            animation-fill-mode: forwards;
+      justify-items: $spacing;
+      align-items: $spacing;
+      border-radius: 10px;
+      background-color: rgb(43, 183, 226);
+      font-weight: $bold;
+      color: whitesmoke;
+      font-size: 25px;
+      text-align: center;
+      height: 100px;
+      order: 1;
+      
+   }
+   
+   .caja-definicion-despido {
+ 
+      background-color: whitesmoke;
+      justify-items: $spacing;
+      align-items: $spacing;
+      border-radius: 10px;
+      font-weight: $bold;
+      order: 2;
+     
+      
       }
-    
-        @keyframes onion  {
-            100% {
-         background-color: $color-casillas-hover;
-        }
+   
+   .caja-jubilacion {
+
+      background-color: rgb(43, 183, 226);
+      opacity: 80% ;
+      justify-items: $spacing;
+      align-items: center;
+      color: whitesmoke;
+      text-align: center;
+      border-radius: 10px;
+      font-weight: $bold;
+      font-size: 30px;
+      order: 5;
       }
-        .caja-definicion-laboral {
-          @include cuerpos;
-            }
+   
+   
+   .caja-definicion-jubilacion {
 
-            .caja-definicion-laboral:hover {
-                transform: scale(1.1);
-                animation-name: onion;
-                animation-duration:0.5s;
-                animation-fill-mode: forwards;
-          }
-        
-            @keyframes onion  {
-                100% {
-             background-color: $color-casillas-hover;
-            }
-          }
-            .caja-definicion-empresarial {
-              @include cuerpos;
-            
-                }
-
-                .caja-definicion-empresarial:hover {
-                    transform: scale(1.1);
-                    animation-name: onion;
-                    animation-duration: 0.5s;
-                    animation-fill-mode: forwards;
-              }
-            
-                @keyframes onion  {
-                    100% {
-                 background-color: $color-casillas-hover;
-                }
-              }
+      background-color: whitesmoke;
+      justify-items: $spacing;
+      align-items:$spacing;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: $bold;
+      order: 6;
+      }
 
               a {
                 color: white;
               }
 
-
+              .trabajo-ss {
+                border-width: 15px !important;
+                border-color: rgb(43, 183, 226) !important;
+                color: rgb(43, 183, 226) !important;
+                border-radius: 15px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                font-weight: bolder;
+              }
 }

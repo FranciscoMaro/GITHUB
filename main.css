@@ -16,10 +16,6 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative; }
 
-.trabajo-ss {
-  padding-top: 25px;
-  padding-bottom: 25px; }
-
 a:hover {
   color: orange; }
 
@@ -260,124 +256,72 @@ span {
   .caja-principal {
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
-    height: 650px; }
-  .caja-empresarial {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    row-gap: 40px; }
+  .caja-accidente {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: blue;
-    opacity: 80%;
-    font-weight: bold;
-    height: 200px; }
-  .caja-empresarial:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #075f81; } }
-  .caja-laboral {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    background-color: #2bb7e2;
+    order: 3;
+    font-size: 25px;
+    text-align: center;
+    flex-basis: 10px;
+    color: whitesmoke;
+    height: 500px;
+    font-weight: bold; }
+  .caja-definicion-accidente {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: blue;
-    opacity: 80%;
-    font-weight: bold;
-    height: 200px; }
-  .caja-laboral:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #075f81; } }
-  .caja-societaria {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    order: 4;
+    font-weight: bold; }
+  .caja-despido {
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: blue;
-    opacity: 80%;
+    background-color: #2bb7e2;
     font-weight: bold;
-    height: 200px; }
-  .caja-societaria:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #075f81; } }
-  .caja-definicion-societaria {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    height: 100px;
+    order: 1; }
+  .caja-definicion-despido {
+    background-color: whitesmoke;
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: blue;
-    opacity: 80%;
     font-weight: bold;
-    height: 200px; }
-  .caja-definicion-societaria:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #075f81; } }
-  .caja-definicion-laboral {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    order: 2; }
+  .caja-jubilacion {
+    background-color: #2bb7e2;
+    opacity: 80%;
+    justify-items: center;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    order: 5; }
+  .caja-definicion-jubilacion {
+    background-color: whitesmoke;
     justify-items: center;
     align-items: center;
     border-radius: 10px;
-    background-color: blue;
-    opacity: 80%;
+    text-align: center;
     font-weight: bold;
-    height: 200px; }
-  .caja-definicion-laboral:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #075f81; } }
-  .caja-definicion-empresarial {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-items: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: blue;
-    opacity: 80%;
-    font-weight: bold;
-    height: 200px; }
-  .caja-definicion-empresarial:hover {
-    transform: scale(1.1);
-    animation-name: onion;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards; }
-  @keyframes onion {
-    100% {
-      background-color: #075f81; } }
+    order: 6; }
   a {
-    color: white; } }
+    color: white; }
+  .trabajo-ss {
+    border-width: 15px !important;
+    border-color: #2bb7e2 !important;
+    color: #2bb7e2 !important;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bolder; } }
 
 /*  MEDIA QUERY  MAYOR A 500PX */
 @media screen and (min-width: 501px) {
@@ -588,7 +532,10 @@ span {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    text-align: center; } }
+    text-align: center; }
+  .trabajo-ss {
+    padding-top: 25px;
+    padding-bottom: 25px; } }
 
 .mapa-color-contacto {
   background-color: #5500ff; }
