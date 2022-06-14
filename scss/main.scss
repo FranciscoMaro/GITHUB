@@ -48,7 +48,7 @@ $row-gap: 8px;
         border-radius: $row-gap*2-1;
       }
 
-@mixin  container {
+@mixin  container-5 {
   display: flex;
   flex-direction: row;
   text-align: justify;
